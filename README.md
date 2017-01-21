@@ -21,17 +21,22 @@ $ conda install h5py
 $ conda install tflearn
 ```
 
-other dependencies :
+Make sure you also have these packages included in your environment :
 * PIL
-
 
 2. download the pre-trained Alex Net model :
 ```
 $ wget http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy
 ```
 
+3. Download Caltech 101 dataset, which can be done as follows at a Linux command prompt.
 ```
 $ wget --no-check-certificate https://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz 
 $ tar xvzf 101_ObjectCategories.tar.gz
+
+```
+3. Generate the .h5 files from the dataset, has to be done only once.
+```
+python project2_HDF5_generation.py
 ```
 
