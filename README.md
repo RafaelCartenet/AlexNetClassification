@@ -30,7 +30,7 @@ python alexnet_predict.py test.jpg
 
 ## Example
 Prediction of the classes of the picture in the repo cat.jpg  
-![alt text](https://github.com/RafaelCartenet/AlexNetClassification/cat.jpg)
+![alt text](https://github.com/RafaelCartenet/AlexNetClassification/blob/master/cat.jpg)
 
 Results :
 ```
